@@ -1,0 +1,20 @@
+{
+  "name": "nextflow-azure-face-verification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teerasej Jiraphatchandej",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cognitiveservices-face": "^5.0.0",
+    "@azure/ms-rest-js": "^2.6.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
