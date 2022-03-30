@@ -12,9 +12,11 @@
   "dependencies": {
     "@azure/cognitiveservices-face": "^5.0.0",
     "@azure/ms-rest-js": "^2.6.1",
+    "dotenv": "^16.0.0",
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "typescript": "^4.6.3"
   }
 }
